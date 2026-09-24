@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3 uid="uid://dew7xlgogljou"]
+
+[ext_resource type="PackedScene" uid="uid://cntynndnisdrw" path="res://player.tscn" id="1_0xm2m"]
+[ext_resource type="Script" uid="uid://lbu37vh77xlx" path="res://main.gd" id="1_h2yge"]
+[ext_resource type="PackedScene" uid="uid://b5yuy4x5lgvss" path="res://options.tscn" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://b2gb42x6tp4bb" path="res://text.tscn" id="2_h2yge"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_h2yge")
+opt_scene = ExtResource("2_1bvp3")
+
+[node name="Player" parent="." instance=ExtResource("1_0xm2m")]
+position = Vector2(163, 334)
+
+[node name="Text" parent="." instance=ExtResource("2_h2yge")]
+position = Vector2(42, 479)

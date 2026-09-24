@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2gb42x6tp4bb"]
+
+[ext_resource type="Script" uid="uid://c4hcc44fj3vne" path="res://text.gd" id="1_aohfb"]
+[ext_resource type="Script" uid="uid://bigcfyacvshrd" path="res://addons/type_writer_label/classes/type_writer_label.gd" id="2_g853r"]
+
+[node name="Text" type="Node2D"]
+script = ExtResource("1_aohfb")
+
+[node name="dialogue" type="RichTextLabel" parent="."]
+offset_right = 445.0
+offset_bottom = 63.0
+text = "kono johnny joestar da"
+script = ExtResource("2_g853r")
+metadata/_custom_type_script = "uid://bigcfyacvshrd"
+
+[node name="dialogue_box" type="Sprite2D" parent="."]

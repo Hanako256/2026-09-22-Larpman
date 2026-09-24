@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5yuy4x5lgvss"]
+
+[ext_resource type="Script" uid="uid://bv3kky7ke4n8i" path="res://options.gd" id="1_5v8ap"]
+[ext_resource type="Script" uid="uid://bigcfyacvshrd" path="res://addons/type_writer_label/classes/type_writer_label.gd" id="2_se8ut"]
+
+[node name="option" type="Node2D"]
+script = ExtResource("1_5v8ap")
+
+[node name="text" type="RichTextLabel" parent="."]
+offset_left = -178.0
+offset_top = -20.0
+offset_right = 179.0
+offset_bottom = 20.0
+bbcode_enabled = true
+text = "Who were you before all this?"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_se8ut")
+metadata/_custom_type_script = "uid://bigcfyacvshrd"
