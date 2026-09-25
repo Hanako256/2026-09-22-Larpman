@@ -1,7 +1,7 @@
 extends Node2D
 
 func _ready():
-	$dialogue.typewrite("Wherever you're from, it isn't America!");
+	pass
 
-func set_to(str):
-	$dialogue.text = str
+func set_to(sbr: String):
+	$dialogue.text = sbr

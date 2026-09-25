@@ -6,7 +6,7 @@ var prior_text
 func _ready():
 	textnode = $text
 
-func set_to(sbr):
+func set_to(sbr: String):
 	$text.typewrite(sbr)
 
 func set_prior(sbr):
